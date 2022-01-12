@@ -169,15 +169,31 @@ body {
     margin: 50 0;
 }
 
+.starship_project_info .project_info_text .text1 {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.starship_project_info .project_info_text .text2 {
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+}
+
+.mars_project_info .project_info_text.text1 {
+    text-align: right;
+    margin-bottom: 3rem;
+}
+
+.mars_project_info .project_info_text .text2 {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
 .starship_project_info .background {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.starship_project_info .background.one {
-    background-image: url(../assets/images/starship2.webp);
 }
 
 .starship_video {
@@ -195,11 +211,60 @@ body {
     height: 100%;
 }
 
+.starship_project_info .background.one {
+    background-image: url(../assets/images/starship2.webp);
+}
+
+.starship_project_info .background.two {
+    background-image: url(../assets/images/raptor_engine.webp);
+}
+
+.starlink_project_info {
+    height: 100vh;
+    position: relative;
+    margin: 50 0;
+}
+
+.starlink_project_info .background {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.starlink_project_info .background.one {
+    background-image: url(../assets/images/starlink2.webp);
+}
+
+.starlink_project_info .background.two {
+    background-image: url(../assets/images/starlink3.webp);
+}
+
+.mars_project_info {
+    height: 100vh;
+    position: relative;
+    margin: 50 0;
+}
+
+.mars_project_info .background {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mars_project_info .background.one {
+    background-image: url(../assets/images/mars2.webp);
+}
+
+.mars_project_info .background.two {
+    background-image: url(../assets/images/mars3.webp);
+}
+
 .project_info_text {
     color: white;
     position: absolute;
     bottom: 20%;
-    left: 20%;
     overflow: hidden;
 }
 
