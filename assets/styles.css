@@ -166,7 +166,7 @@ body {
 .starship_project_info {
     height: 100vh;
     position: relative;
-    margin-top: 20px;
+    margin: 50 0;
 }
 
 .starship_project_info .background {
